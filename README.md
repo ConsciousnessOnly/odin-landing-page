@@ -1,5 +1,5 @@
 # odin-landing-page
-In this project, I will build a basic landing page, it contains: 
+In this project, I will build a simple landing page that contains: 
 
 1. Header
     - Header logo
