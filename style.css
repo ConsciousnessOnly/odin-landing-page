@@ -13,12 +13,12 @@ body {
 
 /* To show parent layer */
 .border-parent {
-    border: 5px dotted skyblue;
+    /* border: 5px dotted skyblue; */
 }
 
 /* To show child layer */
 .border-child {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-top {
@@ -78,8 +78,11 @@ button {
     margin-top: 5px;
 }
 
-.hero-image {
-    background-color: grey;
+.hero-image img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer {
