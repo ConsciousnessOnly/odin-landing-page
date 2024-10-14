@@ -6,28 +6,25 @@ body {
     height: 25%;
     background-color: #1F2937;
     color: white;
-
     display: flex;
     flex-direction: column;
     padding: 8px 150px 100px;
 }
 
-.header-top,
-.header-bottom {
+/* To show parent layer */
+.border-parent {
     border: 5px dotted skyblue;
+}
+
+/* To show child layer */
+.border-child {
+    border: 1px solid red;
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header-logo,
-.header-links,
-.hero-text,
-.hero-image {
-    border: 1px solid red;
 }
 
 .header-logo {
@@ -42,7 +39,6 @@ body {
 
     display: flex;
     gap: 20px;
-
 }
 
 .header-bottom {
