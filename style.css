@@ -52,6 +52,10 @@ body {
     width: 50%;
 }
 
+.hero-text {
+    padding-right: 18px;
+}
+
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
