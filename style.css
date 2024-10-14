@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    height: 25%;
     background-color: #1F2937;
     color: white;
     display: flex;
@@ -13,12 +12,12 @@ body {
 
 /* To show parent layer */
 .border-parent {
-    /* border: 5px dotted skyblue; */
+    border: 5px dotted skyblue;
 }
 
 /* To show child layer */
 .border-child {
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .header-top {
@@ -88,6 +87,10 @@ button {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.body {
+    height: 25%;
 }
 
 .footer {
