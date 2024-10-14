@@ -36,9 +36,14 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
     display: flex;
     gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-bottom {
