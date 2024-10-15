@@ -17,16 +17,6 @@ button {
     padding: 8px 150px 100px;
 }
 
-/* To show parent layer */
-.border-parent {
-    /* border: 5px dotted skyblue; */
-}
-
-/* To show child layer */
-.border-child {
-    /* border: 1px solid red; */
-}
-
 .header-top {
     display: flex;
     justify-content: space-between;
