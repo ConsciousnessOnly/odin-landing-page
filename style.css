@@ -155,7 +155,7 @@ a {
     margin: 128px 128px;
     padding: 64px 64px;
     border-radius: 15px;
-    gap: 12px;
+    gap: 24px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
