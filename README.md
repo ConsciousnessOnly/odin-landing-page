@@ -16,8 +16,9 @@ In this project, I will build a simple landing page that contains:
             - [Dolphin icons created by BZZRINCANTATION - Flaticon](https://www.flaticon.com/free-icons/dolphin)
             - [Dove of peace icons created by iconfield - Flaticon](https://www.flaticon.com/free-icons/dove-of-peace)
             - [Frog icons created by Culmbio - Flaticon](https://www.flaticon.com/free-icons/frog)
-    - An inspirational quote
-    - Call to action
 
-3. Footer
-    - Copyright notice
+3. Quote section: An inspirational quote
+
+4. Call to action
+
+5. Footer: Copyright notice
