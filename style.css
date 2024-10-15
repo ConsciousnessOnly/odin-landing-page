@@ -44,17 +44,12 @@ a {
 
 .header-bottom {
     display: flex;
-    justify-content: space-between;
     margin-top: 80px;
-}
-
-.hero-text,
-.hero-image {
-    width: 50%;
 }
 
 .hero-text {
     padding-right: 18px;
+    flex: 50%;
 }
 
 .hero-main-text {
@@ -69,11 +64,13 @@ a {
     margin-bottom: 8px;
 }
 
+.hero-image {
+    flex: 50%;
+}
+
 .hero-image img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .body {
