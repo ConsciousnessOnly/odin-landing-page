@@ -12,12 +12,12 @@ body {
 
 /* To show parent layer */
 .border-parent {
-    border: 5px dotted skyblue;
+    /* border: 5px dotted skyblue; */
 }
 
 /* To show child layer */
 .border-child {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .header-top {
@@ -128,12 +128,35 @@ button {
     text-align: center;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 64px 64px;
+}
+
+.author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: right;
+    margin-top: 36px;
+}
+
 .footer {
     background-color: #1F2937;
     color: white;
     padding: 20px;
     margin-top: 75%;
-
     display: flex;
     align-items: center;
     justify-content: center;
