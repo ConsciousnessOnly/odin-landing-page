@@ -2,6 +2,13 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+button {    
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 24px;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -69,17 +76,7 @@ a {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-button {    
-    border-radius: 8px;
-    background-color: #3882F6;
-    color: white;
-    padding: 5px 20px;
-}
-
-.sign-up {
-    margin-top: 5px;
+    margin-bottom: 8px;
 }
 
 .hero-image img {
@@ -155,11 +152,13 @@ button {
 
 .call-to-action {
     background-color: #3882F6;
-    margin: 128px 256px;
+    margin: 128px 128px;
     padding: 64px 64px;
     border-radius: 15px;
+    gap: 12px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .call-to-action > div > :nth-child(1) {    
@@ -173,8 +172,9 @@ button {
 }
 
 .call-to-action button {
-    border: 1px solid #F9FAF8;
-    margin-left: 24px;
+    border: 2px solid white;
+    align-self: center;
+    flex: none;
 }
 
 .footer {
